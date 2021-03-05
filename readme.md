@@ -9,7 +9,9 @@ Whenever dispatch is called, we invoke our app function. The app function will t
 We use JavaScript constants instead of strings to call our actions.
 Our `.dispatch()` calls special functions called action creators, instead of passing in unique objects directly to them.
 
-We extract the information from the input fields, reset the input field, and then dispatch an addTodoAction/addGoalAction Action Creator with the text that the user typed into the input/goals field.
+## UI
+
+We connect our functioning state application with a front-end UI. There are form fields and buttons on the UI that can be used to add new Todo items and Goal items to the state. Updating the state will also cause the entire application to re-render so that the visual representation of the application matches that of the info stored in the state object.
 
 ## DOM-manipulation
 

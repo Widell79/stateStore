@@ -1,6 +1,7 @@
 # State Store
 
 Our app can handle adding/removing todo/goal items as well as toggling an item (as complete or incomplete)!
+This app mimics how redux works!
 
 ## How ut works
 
